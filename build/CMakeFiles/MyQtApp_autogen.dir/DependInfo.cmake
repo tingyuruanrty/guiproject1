@@ -9,8 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "MyQtApp_autogen/timestamp" "custom" "MyQtApp_autogen/deps"
-  "C:/Users/tingy/Desktop/c++/gui/guiproject1/build/MyQtApp_autogen/mocs_compilation.cpp" "CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.obj.d"
-  "C:/Users/tingy/Desktop/c++/gui/guiproject1/main.cpp" "CMakeFiles/MyQtApp.dir/main.cpp.obj" "gcc" "CMakeFiles/MyQtApp.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

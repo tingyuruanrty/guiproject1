@@ -1,7 +1,14 @@
 [
 {
-  "directory": "/workspaces/guiproject1/build",
-  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -o CMakeFiles/MyQtApp.dir/main.cpp.o -c /workspaces/guiproject1/main.cpp",
-  "file": "/workspaces/guiproject1/main.cpp"
+  "directory": "C:/Users/tingy/Desktop/c++/gui/guiproject1/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/MyQtApp.dir/includes_CXX.rsp -g -o CMakeFiles\\MyQtApp.dir\\MyQtApp_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\tingy\\Desktop\\c++\\gui\\guiproject1\\build\\MyQtApp_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/tingy/Desktop/c++/gui/guiproject1/build/MyQtApp_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/tingy/Desktop/c++/gui/guiproject1/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/MyQtApp.dir/includes_CXX.rsp -g -o CMakeFiles\\MyQtApp.dir\\main.cpp.obj -c C:\\Users\\tingy\\Desktop\\c++\\gui\\guiproject1\\main.cpp",
+  "file": "C:/Users/tingy/Desktop/c++/gui/guiproject1/main.cpp",
+  "output": "CMakeFiles/MyQtApp.dir/main.cpp.obj"
 }
 ]
