@@ -116,74 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MyQtApp
+# Target rules for targets named Myqt
 
 # Build rule for target.
-MyQtApp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyQtApp
-.PHONY : MyQtApp
+Myqt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Myqt
+.PHONY : Myqt
 
 # fast build rule for target.
-MyQtApp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyQtApp.dir\build.make CMakeFiles/MyQtApp.dir/build
-.PHONY : MyQtApp/fast
-
-#=============================================================================
-# Target rules for targets named MyQtApp_autogen_timestamp_deps
-
-# Build rule for target.
-MyQtApp_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyQtApp_autogen_timestamp_deps
-.PHONY : MyQtApp_autogen_timestamp_deps
-
-# fast build rule for target.
-MyQtApp_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyQtApp_autogen_timestamp_deps.dir\build.make CMakeFiles/MyQtApp_autogen_timestamp_deps.dir/build
-.PHONY : MyQtApp_autogen_timestamp_deps/fast
-
-#=============================================================================
-# Target rules for targets named MyQtApp_autogen
-
-# Build rule for target.
-MyQtApp_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyQtApp_autogen
-.PHONY : MyQtApp_autogen
-
-# fast build rule for target.
-MyQtApp_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyQtApp_autogen.dir\build.make CMakeFiles/MyQtApp_autogen.dir/build
-.PHONY : MyQtApp_autogen/fast
-
-MyQtApp_autogen/mocs_compilation.obj: MyQtApp_autogen/mocs_compilation.cpp.obj
-.PHONY : MyQtApp_autogen/mocs_compilation.obj
-
-# target to build an object file
-MyQtApp_autogen/mocs_compilation.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyQtApp.dir\build.make CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.obj
-.PHONY : MyQtApp_autogen/mocs_compilation.cpp.obj
-
-MyQtApp_autogen/mocs_compilation.i: MyQtApp_autogen/mocs_compilation.cpp.i
-.PHONY : MyQtApp_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-MyQtApp_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyQtApp.dir\build.make CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.i
-.PHONY : MyQtApp_autogen/mocs_compilation.cpp.i
-
-MyQtApp_autogen/mocs_compilation.s: MyQtApp_autogen/mocs_compilation.cpp.s
-.PHONY : MyQtApp_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-MyQtApp_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyQtApp.dir\build.make CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.s
-.PHONY : MyQtApp_autogen/mocs_compilation.cpp.s
+Myqt/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Myqt.dir\build.make CMakeFiles/Myqt.dir/build
+.PHONY : Myqt/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyQtApp.dir\build.make CMakeFiles/MyQtApp.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Myqt.dir\build.make CMakeFiles/Myqt.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -191,7 +141,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyQtApp.dir\build.make CMakeFiles/MyQtApp.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Myqt.dir\build.make CMakeFiles/Myqt.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -199,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyQtApp.dir\build.make CMakeFiles/MyQtApp.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Myqt.dir\build.make CMakeFiles/Myqt.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -210,12 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... MyQtApp_autogen
-	@echo ... MyQtApp_autogen_timestamp_deps
-	@echo ... MyQtApp
-	@echo ... MyQtApp_autogen/mocs_compilation.obj
-	@echo ... MyQtApp_autogen/mocs_compilation.i
-	@echo ... MyQtApp_autogen/mocs_compilation.s
+	@echo ... Myqt
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

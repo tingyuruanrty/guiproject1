@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Myqt.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\Myqt.dir/objects.a @CMakeFiles\Myqt.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Myqt.dir/objects.a -Wl,--no-whole-archive -o Myqt.exe -Wl,--out-implib,libMyqt.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Myqt.dir\linkLibs.rsp

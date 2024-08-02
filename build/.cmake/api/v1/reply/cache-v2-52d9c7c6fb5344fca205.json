@@ -1554,18 +1554,6 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "DESIRED_QT_VERSION",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Pick a version of Qt to use: 3 or 4"
-				}
-			],
-			"type" : "STRING",
-			"value" : "3"
-		},
-		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
 			"properties" : 
 			[
@@ -1636,30 +1624,6 @@
 			],
 			"type" : "STATIC",
 			"value" : "C:/Users/tingy/Desktop/c++/gui/guiproject1"
-		},
-		{
-			"name" : "QT3_QGLOBAL_H_FILE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a file."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/Qt/6.7.2/mingw_64/include"
-		},
-		{
-			"name" : "QT4_QGLOBAL_H_FILE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a file."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "QT4_QGLOBAL_H_FILE-NOTFOUND"
 		},
 		{
 			"name" : "QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH",
@@ -6040,102 +6004,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "OFF"
-		},
-		{
-			"name" : "QT_INCLUDE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "path to Qt3 include directory"
-				}
-			],
-			"type" : "PATH",
-			"value" : "QT_INCLUDE_DIR-NOTFOUND"
-		},
-		{
-			"name" : "QT_MOC_EXECUTABLE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/Qt/6.7.2/mingw_64/bin/moc.exe"
-		},
-		{
-			"name" : "QT_QASSISTANTCLIENT_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "QT_QASSISTANTCLIENT_LIBRARY-NOTFOUND"
-		},
-		{
-			"name" : "QT_QMAKE_EXECUTABLE_FINDQT",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/Qt/6.7.2/mingw_64/bin/qmake.exe"
-		},
-		{
-			"name" : "QT_QTMAIN_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "This Library is only needed by and included with Qt3 on MSWindows. It should be NOTFOUND, undefined or IGNORE otherwise."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "QT_QTMAIN_LIBRARY-NOTFOUND"
-		},
-		{
-			"name" : "QT_QT_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "QT_QT_LIBRARY-NOTFOUND"
-		},
-		{
-			"name" : "QT_UIC_EXECUTABLE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/Qt/6.7.2/mingw_64/bin/uic.exe"
-		},
-		{
-			"name" : "Qt5_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for Qt5."
-				}
-			],
-			"type" : "PATH",
-			"value" : "Qt5_DIR-NOTFOUND"
 		},
 		{
 			"name" : "Qt6CoreTools_DIR",

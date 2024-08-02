@@ -68,33 +68,11 @@ include CMakeFiles/MyQtApp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MyQtApp.dir/flags.make
 
-MyQtApp_autogen/timestamp: C:/Qt/6.7.2/mingw_64/./bin/moc.exe
-MyQtApp_autogen/timestamp: C:/Qt/6.7.2/mingw_64/./bin/uic.exe
-MyQtApp_autogen/timestamp: CMakeFiles/MyQtApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\tingy\Desktop\c++\gui\guiproject1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target MyQtApp"
-	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/tingy/Desktop/c++/gui/guiproject1/build/CMakeFiles/MyQtApp_autogen.dir/AutogenInfo.json Debug
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/tingy/Desktop/c++/gui/guiproject1/build/MyQtApp_autogen/timestamp
-
-CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.obj: CMakeFiles/MyQtApp.dir/flags.make
-CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.obj: CMakeFiles/MyQtApp.dir/includes_CXX.rsp
-CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.obj: MyQtApp_autogen/mocs_compilation.cpp
-CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.obj: CMakeFiles/MyQtApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\tingy\Desktop\c++\gui\guiproject1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\MyQtApp.dir\MyQtApp_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\MyQtApp.dir\MyQtApp_autogen\mocs_compilation.cpp.obj -c C:\Users\tingy\Desktop\c++\gui\guiproject1\build\MyQtApp_autogen\mocs_compilation.cpp
-
-CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tingy\Desktop\c++\gui\guiproject1\build\MyQtApp_autogen\mocs_compilation.cpp > CMakeFiles\MyQtApp.dir\MyQtApp_autogen\mocs_compilation.cpp.i
-
-CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tingy\Desktop\c++\gui\guiproject1\build\MyQtApp_autogen\mocs_compilation.cpp -o CMakeFiles\MyQtApp.dir\MyQtApp_autogen\mocs_compilation.cpp.s
-
 CMakeFiles/MyQtApp.dir/main.cpp.obj: CMakeFiles/MyQtApp.dir/flags.make
 CMakeFiles/MyQtApp.dir/main.cpp.obj: CMakeFiles/MyQtApp.dir/includes_CXX.rsp
 CMakeFiles/MyQtApp.dir/main.cpp.obj: C:/Users/tingy/Desktop/c++/gui/guiproject1/main.cpp
 CMakeFiles/MyQtApp.dir/main.cpp.obj: CMakeFiles/MyQtApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\tingy\Desktop\c++\gui\guiproject1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyQtApp.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\tingy\Desktop\c++\gui\guiproject1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyQtApp.dir/main.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyQtApp.dir/main.cpp.obj -MF CMakeFiles\MyQtApp.dir\main.cpp.obj.d -o CMakeFiles\MyQtApp.dir\main.cpp.obj -c C:\Users\tingy\Desktop\c++\gui\guiproject1\main.cpp
 
 CMakeFiles/MyQtApp.dir/main.cpp.i: cmake_force
@@ -107,13 +85,11 @@ CMakeFiles/MyQtApp.dir/main.cpp.s: cmake_force
 
 # Object files for target MyQtApp
 MyQtApp_OBJECTS = \
-"CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/MyQtApp.dir/main.cpp.obj"
 
 # External object files for target MyQtApp
 MyQtApp_EXTERNAL_OBJECTS =
 
-MyQtApp.exe: CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.obj
 MyQtApp.exe: CMakeFiles/MyQtApp.dir/main.cpp.obj
 MyQtApp.exe: CMakeFiles/MyQtApp.dir/build.make
 MyQtApp.exe: C:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a
@@ -122,7 +98,7 @@ MyQtApp.exe: C:/Qt/6.7.2/mingw_64/lib/libQt6Core.a
 MyQtApp.exe: CMakeFiles/MyQtApp.dir/linkLibs.rsp
 MyQtApp.exe: CMakeFiles/MyQtApp.dir/objects1.rsp
 MyQtApp.exe: CMakeFiles/MyQtApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\tingy\Desktop\c++\gui\guiproject1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MyQtApp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\tingy\Desktop\c++\gui\guiproject1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MyQtApp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MyQtApp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -133,7 +109,7 @@ CMakeFiles/MyQtApp.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles\MyQtApp.dir\cmake_clean.cmake
 .PHONY : CMakeFiles/MyQtApp.dir/clean
 
-CMakeFiles/MyQtApp.dir/depend: MyQtApp_autogen/timestamp
+CMakeFiles/MyQtApp.dir/depend:
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\tingy\Desktop\c++\gui\guiproject1 C:\Users\tingy\Desktop\c++\gui\guiproject1 C:\Users\tingy\Desktop\c++\gui\guiproject1\build C:\Users\tingy\Desktop\c++\gui\guiproject1\build C:\Users\tingy\Desktop\c++\gui\guiproject1\build\CMakeFiles\MyQtApp.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/MyQtApp.dir/depend
 

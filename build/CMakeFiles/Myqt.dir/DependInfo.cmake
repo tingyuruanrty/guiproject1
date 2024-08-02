@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/tingy/Desktop/c++/gui/guiproject1/main.cpp" "CMakeFiles/Myqt.dir/main.cpp.obj" "gcc" "CMakeFiles/Myqt.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

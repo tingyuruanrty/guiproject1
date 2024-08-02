@@ -1,4 +1,4 @@
-CMakeFiles/MyQtApp.dir/main.cpp.obj: \
+CMakeFiles/Myqt.dir/main.cpp.obj: \
  C:\Users\tingy\Desktop\c++\gui\guiproject1\main.cpp \
  C:/Qt/6.7.2/mingw_64/include/QtWidgets/QApplication \
  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qapplication.h \

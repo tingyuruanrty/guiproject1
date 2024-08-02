@@ -194,7 +194,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/MyQtApp_autogen.dir/AutogenInfo.json"
   ".qt/QtDeploySupport.cmake"
   ".qt/QtDeployTargets.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -202,7 +201,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/MyQtApp.dir/DependInfo.cmake"
-  "CMakeFiles/MyQtApp_autogen_timestamp_deps.dir/DependInfo.cmake"
-  "CMakeFiles/MyQtApp_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/Myqt.dir/DependInfo.cmake"
   )
